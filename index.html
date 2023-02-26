@@ -3,43 +3,65 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./assets/css/style.css">
   <title>Frontend Mentor | Results summary component</title>
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
+  <section class="main_container">
+    <section class="card_result">
+      <h3 class="card_result__text card_result__text--gray">Your Result</h3>
+      <div class="card_result__score">
+        <p class="card_result__score card_result__score--big">76</p>
+        <p class="card_result__score card_result__score--gray">of 100</p>
+      </div>
+      <div class="card_result__text">
+        <p class="card_result__text">Great</p>
+        <p class="card_result__text card_result__text--gray">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+    </section>
+    <section class="card_summary">
+      <h3 class="card_summary__text">Summary</h3>
+      <ul class="list">
+        <li class="list__item">
+          <img class="list__icon" src="./assets/images/icon-reaction.svg">
+          <span class="list__text">Reaction</span>
+          <div>
+            <span class="list__text">80</span>
+            <span class="list__text list__text--gray">/ 100</span>
+          </div>
+        </li>
+        <li class="list__item">
+          <img class="list__icon" src="./assets/images/icon-memory.svg">
+          <span class="list__text">Memory</span>
+          <div>
+            <span class="list__text">92</span>
+            <span class="list__text list__text--gray">/ 100</span>
+          </div>
+        </li>
+        <li class="list__item">
+          <img class="list__icon" src="./assets/images/icon-verbal.svg">
+          <span class="list__text">Verbal</span>
+          <div>
+            <span class="list__text">61</span>
+            <span class="list__text list__text--gray">/ 100</span>
+          </div>
+        </li>
+        <li class="list__item">
+          <img class="list__icon" src="./assets/images/icon-visual.svg">
+          <span class="list__text">Visual</span>
+          <div>
+            <span class="list__text">72</span>
+            <span class="list__text list__text--gray">/ 100</span>
+          </div>
+        </li>
+      </ul>
+      <button class="list__button">Continue</button>
+    </section>
+  </section>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded with love by <a href="https://github.com/Lidenbrock-ed" target="_blank">Lidenbrock_ed</a> 💙.
   </div>
 </body>
 </html>
