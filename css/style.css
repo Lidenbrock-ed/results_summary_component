@@ -51,7 +51,7 @@
 h3.card_result__text--gray{
     color: hsl(241, 100%, 89%);
     font-size: 18px;
-    margin-top: 2px;
+    margin-top: 5px;
     opacity: 0.8;
 } 
 .card_result__text--gray, .card_result__score--gray{
@@ -116,13 +116,15 @@ h3.card_result__text--gray{
     margin-left: 10px;
 }
 .list__text {
-    color:hsl(224, 30%, 27%);
+    color: hsl(224, 30%, 70%);
+    font-weight: 700;
 }
 .list__text--gray {
+    color:hsl(224, 30%, 27%);
     font-weight: 700;
 }
 .list__button {
-    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    background: hsl(224, 30%, 27%);
     border-radius: 25px;
     border: 0px;
     color: hsl(0, 0%, 100%);
@@ -160,4 +162,8 @@ h3.card_result__text--gray{
 #visual {
     background-color: hsl(234, 85%, 95%);
     color: hsl(234, 85%, 45%);
+}
+
+.list__button:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
