@@ -8,60 +8,70 @@
   <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
-  <section class="main_container">
-    <section class="card_result">
-      <h3 class="card_result__text card_result__text--gray">Your Result</h3>
-      <div class="card_result__score">
-        <p class="card_result__score card_result__score--big">76</p>
-        <p class="card_result__score card_result__score--gray">of 100</p>
-      </div>
-      <div class="card_result__text">
-        <p class="card_result__text">Great</p>
-        <p class="card_result__text card_result__text--gray">You scored higher than 65% of the people who have taken these tests.</p>
-      </div>
-    </section>
-    <section class="card_summary">
-      <h3 class="card_summary__text">Summary</h3>
-      <ul class="list">
-        <li class="list__item">
-          <img class="list__icon" src="./assets/images/icon-reaction.svg">
-          <span class="list__text">Reaction</span>
-          <div>
-            <span class="list__text">80</span>
-            <span class="list__text list__text--gray">/ 100</span>
-          </div>
-        </li>
-        <li class="list__item">
-          <img class="list__icon" src="./assets/images/icon-memory.svg">
-          <span class="list__text">Memory</span>
-          <div>
-            <span class="list__text">92</span>
-            <span class="list__text list__text--gray">/ 100</span>
-          </div>
-        </li>
-        <li class="list__item">
-          <img class="list__icon" src="./assets/images/icon-verbal.svg">
-          <span class="list__text">Verbal</span>
-          <div>
-            <span class="list__text">61</span>
-            <span class="list__text list__text--gray">/ 100</span>
-          </div>
-        </li>
-        <li class="list__item">
-          <img class="list__icon" src="./assets/images/icon-visual.svg">
-          <span class="list__text">Visual</span>
-          <div>
-            <span class="list__text">72</span>
-            <span class="list__text list__text--gray">/ 100</span>
-          </div>
-        </li>
-      </ul>
-      <button class="list__button">Continue</button>
+  <section class="modal">
+    <section class="main_container">
+      <section class="card_result">
+        <h3 class="card_result__text card_result__text--gray">Your Result</h3>
+        <div class="card_result__score">
+          <p class="card_result__score--big">76</p>
+          <p class="card_result__score--gray">of 100</p>
+        </div>
+        <div class="card_result__text">
+          <p class="card_result__text">Great</p>
+          <p class="card_result__text card_result__text--gray">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+      </section>
+      <section class="card_summary">
+        <h3 class="card_summary__text">Summary</h3>
+        <ul class="list">
+          <ul id="reaction" class="list__item">
+            <div class="list__class">
+              <img class="list__icon" src="./assets/images/icon-reaction.svg">
+              <span>Reaction</span>
+            </div>
+            <div>
+              <span class="list__text list__text--gray">80</span>
+              <span class="list__text">/ 100</span>
+            </div>
+          </ul>
+          <ul id="memory" class="list__item">
+            <div class="list__class">
+              <img class="list__icon" src="./assets/images/icon-memory.svg">
+              <span>Memory</span>
+            </div>
+            <div>
+              <span class="list__text list__text--gray">92</span>
+              <span class="list__text ">/ 100</span>
+            </div>
+          </ul>
+          <ul id="verbal" class="list__item">
+            <div class="list__class">
+              <img class="list__icon" src="./assets/images/icon-verbal.svg">
+              <span>Verbal</span>
+            </div>
+            <div>
+              <span class="list__text list__text--gray">61</span>
+              <span class="list__text">/ 100</span>
+            </div>
+          </ul>
+          <ul id="visual" class="list__item">
+            <div class="list__class">
+              <img class="list__icon" src="./assets/images/icon-visual.svg">
+              <span>Visual</span>
+            </div>
+            <div>
+              <span class="list__text list__text--gray">72</span>
+              <span class="list__text">/ 100</span>
+            </div>
+          </ul>
+        </ul>
+        <button class="list__button">Continue</button>
+      </section>
     </section>
   </section>
   <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded with love by <a href="https://github.com/Lidenbrock-ed" target="_blank">Lidenbrock_ed</a> 💙.
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded with love by <a href="https://github.com/Lidenbrock-ed" target="_blank">Lidenbrock_ed</a>  💙.
   </div>
 </body>
 </html>
