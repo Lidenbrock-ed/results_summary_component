@@ -167,3 +167,21 @@ h3.card_result__text--gray{
 .list__button:hover {
     background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
 }
+
+@media (max-width: 700px) {
+    .modal {
+        height: auto;
+        width: auto;
+    }
+    .main_container {
+        flex-direction: column;
+        box-shadow: none;
+    }
+    .card_result{
+        border-radius: 0px 0px 50px 50px;
+        width: auto;
+    }
+    .attribution, .attribution > a {
+        font-size: 11px;
+    }
+}
