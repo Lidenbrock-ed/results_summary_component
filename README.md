@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Lidenbrock-ed/results_summary_component)
-- Live Site URL: [Add live site URL here](https://lidenbrock-ed.github.io/results_summary_component/)
+- Solution URL: [Repository](https://github.com/Lidenbrock-ed/results_summary_component)
+- Live Site URL: [Results Summary Component Page](https://lidenbrock-ed.github.io/results_summary_component/)
 
 ## My process
 
