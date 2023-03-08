@@ -48,7 +48,7 @@
 .card_result__score--big {
     font-size: 60px;
 }
-h3.card_result__text--gray{
+h1.card_result__text--gray{
     color: hsl(241, 100%, 89%);
     font-size: 18px;
     margin-top: 5px;
